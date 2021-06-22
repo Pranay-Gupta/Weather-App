@@ -1,0 +1,56 @@
+.app {
+  display: flex;
+  height: 100vh;
+}
+.body {
+  display: flex;
+  height: 80vh;
+  width: 30vw;
+  margin: auto;
+  align-items: center;
+  flex-direction: column;
+  background: url("images/back.jpg") center center/cover no-repeat;
+
+  
+}
+
+.app__searchbar {
+  background-color: white;
+  margin: 35px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+.app__searchbar > input {
+  width: 300px;
+  border: none;
+  outline: none;
+  margin-left: 20px;
+  font-size: 18px;
+}
+.app__searchbar > .MuiSvgIcon-root {
+  color: gray;
+}
+
+.app__temprature {
+  background-color: rgba(255, 255, 255, 0.281);
+  color: rgb(226, 235, 243);
+  font-size: 70px;
+  margin: 30px 0 20px 0;
+  text-shadow: 0px 3px rgb(66, 66, 66);
+  padding: 5px;
+  box-shadow: 2px 6px rgba(48, 47, 47, 0.568);
+  border-radius: 6px;
+}
+
+.app__location {
+  color: white;
+  font-size: 40px;
+  margin: 20px;
+}
+.app__forecast {
+  color: rgb(247, 250, 252);
+  font-size: 30px;
+  margin: 40px 0 30px 0;
+}
